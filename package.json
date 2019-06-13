@@ -1,0 +1,25 @@
+{
+  "name": "webdb-iii-challenge",
+  "version": "1.0.0",
+  "description": "webdb-iii",
+  "main": "index.js",
+  "scripts": {
+
+		"start": "nodemon index.js"
+	},
+  "repository": "https://github.com/BrandonJAllison/webdb-iii-challenge.",
+  "author": "Brandon Allison",
+  "license": "MIT",
+  "dependencies": {
+		"express": "^4.16.4",
+		"knex": "^0.16.5",
+    "sqlite3": "^4.0.6",
+    "helmet": "^3.16.0"
+	},
+
+  "devDependencies": {
+    
+    "nodemon": "^1.19.0"
+    
+  }
+}
